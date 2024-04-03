@@ -1,0 +1,80 @@
+Bien sûr, voici un exemple de fichier style.css pour un site web simple :
+```css
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #333;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin-bottom: 1.5rem;
+}
+
+/* Header styles */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+}
+
+header h1 {
+  margin: 0;
+}
+
+/* Navigation styles */
+nav {
+  background-color: #555;
+  color: #fff;
+  padding: 1rem;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 1rem;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Main content styles */
+main {
+  padding: 2rem;
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+
+/* Media queries for responsive design */
+@media (max-width: 768px) {
+  nav {
+    display: block;
+  }
+
+  nav ul li {
+    display: block;
+  }
+}
+```
+Le code ci-dessus est un exemple de feuille de style CSS pour un site web simple. Il inclut des styles de base pour le corps du texte, les en-têtes, le pied de page, la navigation, le contenu principal et des requêtes médias pour un design réactif. Vous pouvez l'utiliser comme point de départ pour votre projet et l'ajuster en fonction de vos besoins.
